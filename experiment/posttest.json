@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If the shortest link is 10cm in Tchebichev Mechanism, what is the length of longest link?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "25cm",
+        "b": "20cm",
+        "c": "15cm",
+        "d": "30cm"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The ratio of links in Tchebichev Mechanism (Shortest:Fixed:RemainingTwo) is ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1:4:2",
+        "b": "1:2.5:2",
+        "c": "1:2:4",
+        "d": "1:2:2.5"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Which point on the Tchebichev Mechanism moves in approximate straight line?",
+      "answers": {
+        "a": "End-point of shortest link ",
+        "b": "Mid-point of longest link",
+        "c": "Mid-point of shortest link ",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
     }
   ]
 }
