@@ -1,1 +1,1 @@
-# Tchebichev Straight Line Mechanism
+# Chebyshev's Straight line Mechanism
