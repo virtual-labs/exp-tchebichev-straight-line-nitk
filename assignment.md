@@ -1,0 +1,1 @@
+1. Prove that the mid point of the shortest link in Tchebichev linkage moves in approximate straight line. Also find the input angles between which it does so.
