@@ -1,22 +1,19 @@
-1. OQ is the varied to increase stroke length
+### Procedure
 
-2. The trace check box is used to trace the path followed by the leg
+<div style="text-align:left">
+  Click on the Simulation icon    <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation screen. 
 
-3. Speed of walking can be increased by increasing the input angular velocity
+   ![Alt text](images/procedure_1a.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
-**Simulation**
+   ![Alt text](images/var2.png)
 
-![img](./images/exp16-2.png)
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-<ul>
-  <li>In this page the link lengths can be varied proportionally by increasing OQ</li>
-  <li>The Path traced by the leg can be checked by checking the Trace option</li>
-  <li>The simulation has two modes
-    <ul style="list-style-type: circle">
-      <li> <strong>Pause Mode</strong>: In this mode the simulation is made to behave in such a way that the user inputs the input angle. In the screenshot displayed above the simulation is paused and the user can vary alpha values accordingly as per his/her wish</li>
-      <li> <strong>Run Mode</strong>: In this mode the simulation is made to behave in such a way that the user inputs the angular velocity of the four bar linkage.</li>
-    </ul>
-  </li>
-</ul>
 
-Overall this screen of the simulation is used figure out the application of the four bar mechanism as a walking mechanism
+ Click on the Rotate icon  <img src="images/rotate clockwise.png" alt="Alt text" style="height:80px; width:80px;"> to change the direction of rotation.
+
+ Click on the Trace icon  <img src="images/Trace.png" alt="Alt text" style="height:80px; width:80px;"> to trace the path.    
+   ![Alt text](images/Trace%20part.png)
+</div>
