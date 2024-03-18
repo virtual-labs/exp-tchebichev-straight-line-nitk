@@ -37,7 +37,7 @@ h1 {
 
 .title-div h1 {
   justify-self: center;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   color: var(--clr-text-clr);
   text-transform: uppercase;
 }
@@ -221,7 +221,7 @@ h1 {
   border: 1px solid var(--clr-title-background);
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 0;
   flex-wrap: wrap;
   flex-direction: row;
@@ -353,14 +353,17 @@ h1 {
   margin-left: 10rem;
 }
 
-#commentboxleft {
-  align-self: center;
+#commentboxleft{
+  /* margin: 0 auto; */
+  text-align: center;
+  justify-self: center;
+  align-self: center; */
 }
 
-#comments {
+/* #comments {
   color: #1b1b1b;
   align-self: stretch;
-}
+} */
 
 .control-sections {
   height: 100%;
