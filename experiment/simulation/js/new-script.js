@@ -117,6 +117,9 @@ function varinit() {
   //Variable omega2 slider and number input types
   $("#omega2slider").slider("value", 1);
   $("#omega2spinner").spinner("value", 1);
+  ptx = [];
+  pty = [];
+  document.getElementById("trace").checked = false;
 }
 
 // Initialise and Monitor variable containing user inputs of system parameters.
@@ -217,6 +220,8 @@ function varupdate() {
     $("#omega2set").hide();
     BOQ = $("#alphaspinner").spinner("value");
     omega2 = rotstatus * $("#omega2spinner").spinner("value");
+    ptx = [];
+    pty = [];
   }
   /*First Leg*/
   (r2 = r1 / 2), (r3 = 2.5 * r2), (r4 = 2.5 * r2);
