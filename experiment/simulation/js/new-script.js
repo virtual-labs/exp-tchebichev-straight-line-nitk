@@ -5,7 +5,7 @@ var rotstatus = 1;
 var commenttext = "Some Text";
 var commentloc = 0;
 //computing section
-var trans = new point(300, 200);
+var trans = new point(200, 200);
 var o = new point(0, 0, "O");
 var q = new point(0, 0, "Q");
 var a = new point(0, 0, "A");

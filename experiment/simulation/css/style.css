@@ -1,5 +1,9 @@
-.main-container {
-  background-color: var(--clr-body-clr);
+.container {
+  background-color: var(--clr-container-clr);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
 }
 .title-div-container {
   width: 100%;
@@ -7,9 +11,9 @@
   background-color: var(--clr-container-clr);
   z-index: 105;
   position: relative;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.25rem;
+  grid-column: 1/-1;
 }
-
 .title-div {
   display: flex;
   gap: 5rem;
@@ -41,20 +45,12 @@ h1 {
   color: var(--clr-text-clr);
   text-transform: uppercase;
 }
-.container {
-  padding: 0 0.5rem 0.5rem 0.5rem;
-  display: flex;
-  flex-direction: row;
-  background-color: var(--clr-container-clr);
-  /* height: 100vh; */
-  gap: 0.5rem;
-}
+
 /* ********************** */
 /* *******SIDEBAR******* */
 /* ********************** */
 
 .sidebar {
-  /* background-color: gray; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,8 +58,10 @@ h1 {
   background-color: #fffcfc;
   box-shadow: 0 1rem 1rem 0 rgba(177, 176, 176, 0.855);
   padding: 1.2rem 1.6rem;
+  margin: 0.25rem;
   border-radius: 0.9rem;
   left: 0;
+  cursor: pointer;
 }
 
 .logo-div {
@@ -121,6 +119,11 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0.25rem;
+  margin-bottom: 0;
+  border-radius: 0.9rem;
 }
 
 .task-title {
@@ -143,6 +146,7 @@ h1 {
   grid-template-columns: 50fr 50fr;
   gap: 0.5rem;
   overflow-y: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   /* padding: 0 1rem 0 0; */
 }
@@ -233,12 +237,11 @@ h1 {
 #canvas-container {
   width: 100%;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#canvas {
-  border-left: 1px solid rgba(177, 176, 176, 0.855);
-  width: 100%;
-  height: 100%;
-}
+
 .img-div {
   display: flex;
   flex-direction: column;
