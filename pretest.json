@@ -1,0 +1,60 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "How many four bar mechanisms are used in the Tchebichev walking mechanism?",
+        "answers": {
+          "a": "2",
+          "b": "1",
+          "c": "3",
+          "d": "4"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "The Tchebichev lambda mechanism is primarily a _________ mechanism",
+        "answers": {
+          "a": "Quick- Return Mechanism",
+          "b": "Circular Tracing Mechanism",
+          "c": "Straight Line Mechanism",
+          "d": "Walking Mechanism"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "What is the ratio of links OB: OQ: BC of the Tchebichev walking mechanism?",
+        "answers": {
+          "a": "1:1:2",
+          "b": "1:2:2.5",
+          "c": "1:1:1",
+          "d": "1:2:1"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      }
+     
+      
+    ]
+  }
+  
+  
